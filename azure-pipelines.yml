@@ -28,7 +28,7 @@ jobs:
   displayName: 'Deploy to Dev'
   pool:
     vmImage: 'windows-latest'
-  environment: 'YourDevEnvironment'
+  environment: 'dev'
   strategy:
     runOnce:
       deploy:
